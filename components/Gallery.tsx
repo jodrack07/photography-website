@@ -22,10 +22,10 @@ export default function Gallery() {
   };
 
   return (
-    <div className='max-w-[1240px] mx-auto mb-[8rem]' id='gallery'>
-      <h1 className='text-center text-2xl text-bold p-8'>Gallery</h1>
+    <div className='max-w-[1240px] mx-auto mb-[4rem] sm:mb-[8rem] overflow-hidden' id='gallery'>
+      <h1 className='text-center text-4xl text-bold p-8'>Gallery</h1>
 
-      <div className='relative flex justify-center w-[1240px] h-[500px] p-4'>
+      <div className='relative flex justify-center w-[90vw] lg:w-[1240px] h-300px mx-auto h-[300px] sm:h-[500px] p-4'>
       {sliders.map((slider, index) => (
             <div
             style={{height: '100%', width: '100%'}}
