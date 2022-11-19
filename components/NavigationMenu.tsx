@@ -28,7 +28,7 @@ export default function NavigationMenu({ device, state, textColorOnScroll }: Nav
         <Link href='/'>Home</Link>
       </li>
       <li className={currentDevice.li}>
-        <Link href='/#galary'>Galery</Link>
+        <Link href='/#gallery'>Galery</Link>
       </li>
       <li className={currentDevice.li}>
         <Link href='/work'>work</Link>
