@@ -1,6 +1,1 @@
-<div>
-          <AiOutlineMenu size={20} />
-        </div>
-        <div>
-          <NavigationMenu />
-        </div>
+'w-full h-full col-span-2 md:col-span-3 row-span-2
