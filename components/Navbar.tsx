@@ -30,6 +30,10 @@ export default function Navbar() {
         <Link href='/'>
           <h1 style={{color: `${textColorOnScroll}`}} className='text-2xl sm:text-bold sm:text-4xl'>Capture.</h1>
         </Link>
+        <NavigationMenu
+          device='desktop'
+          textColorOnScroll={textColorOnScroll}
+        />
         <div
           className='sm:hidden px-2 py-1 z-10 ease-out duration-1000'
           onClick={() => setshowMobileMenu(!showMobileMenu)}
@@ -49,10 +53,6 @@ export default function Navbar() {
             <AiOutlineMenu size={24} style={{color: `${textColorOnScroll}`}} />
           )}
         </div>
-        <NavigationMenu
-          device='desktop'
-          textColorOnScroll={textColorOnScroll}
-        />
         <NavigationMenu
           device='mobile'
           state={showMobileMenu}
